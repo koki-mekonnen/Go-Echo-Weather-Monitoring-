@@ -8,5 +8,5 @@ type ServerConfig struct{
 var Server ServerConfig
 
 func Load(){
-	Server.Address=":8080"
+	Server.Address=":8000"
 }
